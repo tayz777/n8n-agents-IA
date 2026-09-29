@@ -1,0 +1,15 @@
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+
+# Données locales éventuelles
+.n8n/
+n8n_data/
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
