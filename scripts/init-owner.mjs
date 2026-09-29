@@ -1,4 +1,4 @@
-const baseUrl = process.env.N8N_INTERNAL_URL ?? 'http://n8n:5678';
+const baseUrl = process.env.N8N_INTERNAL_URL ?? 'http://127.0.0.1:5678';
 
 const owner = {
   email: process.env.N8N_OWNER_EMAIL,

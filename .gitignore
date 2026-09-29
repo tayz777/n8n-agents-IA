@@ -3,9 +3,11 @@
 .env.*
 !.env.example
 
-# Données locales éventuelles
-.n8n/
-n8n_data/
+# n8n et dépendances installées localement
+.local-data/
+.n8n.pid
+node_modules/
+.npm-cache/
 
 # Fichiers système et éditeurs
 .DS_Store

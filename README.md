@@ -1,21 +1,16 @@
 # n8n local sur Mac
 
-Ce dossier permet de lancer n8n facilement sur un Mac.
+Ce dossier permet de lancer n8n directement sur un Mac avec Node.js.
 
 ## Première installation
 
-1. Télécharge et installe [Docker Desktop pour Mac](https://www.docker.com/products/docker-desktop/).
-2. Ouvre **Docker Desktop**.
-3. Attends que Docker indique qu'il est prêt.
+1. Télécharge et installe [Node.js](https://nodejs.org/fr/download) en version **24 ou plus récente**.
+2. Ouvre l'application **Terminal** sur ton Mac.
+3. Écris `sh ` dans le Terminal, sans appuyer sur Entrée.
+4. Fais glisser le fichier **DEMARRER.command** dans le Terminal.
+5. Appuie sur **Entrée**.
 
-## Lancer n8n
-
-1. Ouvre l'application **Terminal** sur ton Mac.
-2. Écris `sh ` dans le Terminal, sans appuyer sur Entrée.
-3. Fais glisser le fichier **DEMARRER.command** dans la fenêtre du Terminal.
-4. Appuie sur **Entrée**.
-
-Au premier lancement, attends quelques minutes pendant le téléchargement. Le navigateur s'ouvrira automatiquement lorsque n8n sera prêt.
+Le premier lancement peut prendre quelques minutes. n8n s'installe automatiquement, puis le navigateur s'ouvre.
 
 ## Se connecter
 
@@ -23,15 +18,14 @@ Au premier lancement, attends quelques minutes pendant le téléchargement. Le n
 - E-mail : `admin@local.test`
 - Mot de passe : `Admin123`
 
+Garde la fenêtre du Terminal ouverte pendant que tu utilises n8n.
+
 ## Arrêter n8n
 
-Fais la même chose avec le fichier **ARRETER.command** :
+Tu peux simplement fermer la fenêtre du Terminal utilisée par n8n.
 
-1. Ouvre **Terminal**.
-2. Écris `sh `.
-3. Fais glisser **ARRETER.command** dans le Terminal.
-4. Appuie sur **Entrée**.
+Si nécessaire, utilise **ARRETER.command** de la même manière : écris `sh ` dans un nouveau Terminal, fais glisser le fichier dedans, puis appuie sur **Entrée**.
 
-Tes automatisations resteront enregistrées pour le prochain lancement.
+Tes automatisations restent enregistrées pour le prochain lancement.
 
 > Cette installation est prévue uniquement pour une utilisation locale sur ton Mac.
